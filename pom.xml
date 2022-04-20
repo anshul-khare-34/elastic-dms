@@ -147,24 +147,24 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>properties-maven-plugin</artifactId>
-				<version>1.0.0</version>
-				<executions>
-					<execution>
-						<phase>initialize</phase>
-						<goals>
-							<goal>read-project-properties</goal>
-						</goals>
-						<configuration>
-							<files>
-								<file>${project.basedir}/../package/elk-ms/elk-ms_version.txt</file>
-							</files>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
+			<!-- <plugin> -->
+				<!-- <groupId>org.codehaus.mojo</groupId> -->
+				<!-- <artifactId>properties-maven-plugin</artifactId> -->
+				<!-- <version>1.0.0</version> -->
+				<!-- <executions> -->
+					<!-- <execution> -->
+						<!-- <phase>initialize</phase> -->
+						<!-- <goals> -->
+							<!-- <goal>read-project-properties</goal> -->
+						<!-- </goals> -->
+						<!-- <configuration> -->
+							<!-- <files> -->
+								<!-- <file>${project.basedir}/../package/elk-ms/elk-ms_version.txt</file> -->
+							<!-- </files> -->
+						<!-- </configuration> -->
+					<!-- </execution> -->
+				<!-- </executions> -->
+			<!-- </plugin> -->
 			<plugin>
 				<groupId>io.fabric8</groupId>
 				<artifactId>docker-maven-plugin</artifactId>
