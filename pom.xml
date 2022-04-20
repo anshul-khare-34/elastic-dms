@@ -81,12 +81,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.commscope.dms.dev.elasticsearch.common</groupId>
-			<artifactId>elasticsearch-common</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-
-		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.6</version>
