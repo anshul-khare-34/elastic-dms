@@ -26,7 +26,7 @@
 	<properties>
 		<docker.image.name>elasticsearch-client</docker.image.name>
 		<dms.version>1.0.0</dms.version>
-		<build.version>${VERSION}</build.version>
+		<build.version>1.0</build.version>
 		<org.mockito.version>1.8.4</org.mockito.version>
 		<maven-clean-plugin.version>2.4.1</maven-clean-plugin.version>
 		<maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
@@ -39,7 +39,7 @@
 
 		<spotless-maven-plugin.version>1.18.0</spotless-maven-plugin.version>
 		<formatter-maven-plugin.version>2.8.1</formatter-maven-plugin.version>
-		<build.version>${VERSION}</build.version>
+		<build.version>1.0</build.version>
 	</properties>
 	<dependencies>
 
@@ -217,7 +217,7 @@
 											<JAR>${project.build.finalName}.jar</JAR>
 										</args>
 										<tags>
-											<tag>${VERSION}</tag>
+											<tag>1.0</tag>
 										</tags>
 									</build>
 								</image>
