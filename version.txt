@@ -1,0 +1,26 @@
+Load image into docker container
+================================
+gunzip -c elasticsearch-client-latest.tar.gz | docker load
+
+To start container
+===============================
+docker run -p 8888:8888  -e ELK_CLIENT_SRV_REST_PORT=8888 -e ELK_PROTOCAL=http -e ELK_IP=10.211.2.209 -e ELK_USER=elastic -e ELK_PASS=Test123! -e ELK_PORT=9200  -d --name=elasticsearch-client elasticsearch-client:latest
+
+
+
+Stop docker container
+=========================
+docker stop <Container id>
+docker rm <Container id>
+
+Remove docker images
+==========================
+docker rmi elasticsearch-client:latest
+
+To check container logs
+==========================
+docker logs <Container id>
+
+To Check running Process 
+==========================
+docker ps

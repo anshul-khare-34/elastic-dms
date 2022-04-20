@@ -1,0 +1,198 @@
+{
+   "mappings":{
+      "properties":{
+            "deviceidentifier":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "oui":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "productClass":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "sku":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "ipaddress":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "port":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "state":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "county":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "fips":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "region":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "zip":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "eNodeBName":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+           "friendlyName" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+            "gNBId":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "gNBName":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "venue":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "softwareversion":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "lastcontacttime":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "replanstatus":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "serviceareacode":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+            },
+            "devicestatus":{
+               "type":"text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+         	},
+         	"deviceparams":{
+                  "type":"object"
+            }
+      }
+   }
+}

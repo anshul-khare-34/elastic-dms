@@ -1,0 +1,1 @@
+{"ipaddress":"10.211.2.215","oui":"0005B9","productClass":"CS_ONECELL_DU","eNodeBName":"bglrszone-33219du-eNodeBName","port":"33215","state":"0","deviceId":"bglrszone-33219du1","friendlyName":"COmmscope1"}
